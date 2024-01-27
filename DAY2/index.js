@@ -130,20 +130,37 @@
 
 
 
+//object #1 clone........
+
+
+// let src = {
+//     a:10,
+//     b:20,c:30
+
+// };
+// let dest={}
+
+// for(let key in src){
+//     dest[key] =src[key];
+
+// }
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
 
 
 
-let src = {
-    a:10,
-    b:20,c:30
 
-};
-let dest={}
+ //object #2
 
-for(let key in src){
-    dest[key] =src[key];
 
-}
+ let src ={
+    a:10,b:20,c:30
+ };
+
+let dest = Object.assign({} ,src);
+
 console.log(dest);
 
 
